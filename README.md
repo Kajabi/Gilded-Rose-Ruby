@@ -16,13 +16,13 @@ Hi and welcome to team Gilded Rose. As you know, we are a small inn with a prime
 
 - The Quality of an item is never negative
 
-- "Aged Brie" actually increases in Quality the older it gets
+- "Aged" items actually increases in Quality the older they get
 
-- The Quality of an item is never more than 50, unless Legendary
+- The Quality of an item is never more than 50, unless "Legendary"
 
-- "Sulfuras", being a legendary item, never has to be sold or decreases in Quality. It never changes.
+- "Legendary" items never have to be sold or decrease in Quality. They never change.
 
-- "Backstage passes", like Aged Brie, increases in Quality as it's Days Remaining value approaches zero; Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but Quality drops to 0 after the concert
+- "Backstage passes", like "Aged" items, increases in Quality as it's Days Remaining value approaches zero; Quality increases by 2 when there are 10 days or less and by 3 when there are 5 days or less but Quality drops to 0 after the concert
 
 ### Our Task
 
