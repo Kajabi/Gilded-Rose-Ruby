@@ -97,7 +97,7 @@ RSpec.describe GildedRose do
 
   context "Sulfuras" do
     it "before sell date" do
-      gilded_rose = GildedRose.new(name: "Sulfuras, Hand of Ragnaros", days_remaining: 5, quality: 80)
+      gilded_rose = GildedRose.new(name: "Legendary Sulfuras, Hand of Ragnaros", days_remaining: 5, quality: 80)
 
       gilded_rose.tick
 
@@ -105,7 +105,7 @@ RSpec.describe GildedRose do
     end
 
     it "on sell date" do
-      gilded_rose = GildedRose.new(name: "Sulfuras, Hand of Ragnaros", days_remaining: 0, quality: 80)
+      gilded_rose = GildedRose.new(name: "Legendary Sulfuras, Hand of Ragnaros", days_remaining: 0, quality: 80)
 
       gilded_rose.tick
 
@@ -113,7 +113,7 @@ RSpec.describe GildedRose do
     end
 
     it "after sell date" do
-      gilded_rose = GildedRose.new(name: "Sulfuras, Hand of Ragnaros", days_remaining: -10, quality: 80)
+      gilded_rose = GildedRose.new(name: "Legendary Sulfuras, Hand of Ragnaros", days_remaining: -10, quality: 80)
 
       gilded_rose.tick
 
